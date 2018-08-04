@@ -1,0 +1,43 @@
+baseURL = "https://dasfranck.fr"
+DefaultContentLanguage = "en"
+title = "Vimarkish"
+theme = "beautifulhugo"
+
+#languageCode = "en-us"
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+
+[Params]
+  subtitle = "A subtitle"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"  
+  readingTime = true
+  socialShare = true
+  rss = true
+
+[Author]
+  name = "\"Das\" Franck Hochstaetter"
+# email = ""
+  website = "https://dasfranck.fr"
+  github = "DasFranck"
+  linkedin = "franck-hochstaetter-b710b910a"
+  reddit = "DasFranck"
+  stackoverflow = "users/4836782/dasfranck"
+
+
+[[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
