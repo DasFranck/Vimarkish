@@ -2,7 +2,6 @@
 title: "make -C /srv/http/Vimarkish"
 date: 2018-08-04T16:37:58Z
 slug: first-post
-description: Yet another blog...
 draft: true
 categories:
   - "test"
@@ -10,8 +9,10 @@ tags:
   - "test"
 ---
 
-Voilà, c'est fait j'ai créé mon blog... en 2017. Quand tout le monde est sur Facebook ou Twitter et quasiment plus personne ne lit de blog.
+Voilà, c'est fait j'ai créé mon blog... en 2017. Quand tout le monde est sur Facebook ou Twitter et quasiment plus personne ne lit de blog.  
 Bon tant pis.
+
+<!--more-->
 
 Ça fait quelques années que je me dis que je devrais me faire un petit blog, puis j'en crée un. Puis j'oublie. Plusieurs fois.
 C'était pas juste le manque d'envie, c'était surtout le manque de choses à écrire, il y a quelques années seulement je débutais simplement en Python et j'avais très peu de connaissances informatiques théoriques.
