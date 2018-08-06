@@ -39,9 +39,13 @@ Ce qui nous donne le cheminement suivant:
 - Apache continue son taf habituel et servira les pages.
 
 ## GitHub
+Blabla ici
 
 ## Webhook
 ### Installation
+- ArchLinux: Installez le depuis [AUR](https://aur.archlinux.org/packages/webhook/)
+- Ubuntu (17.04 ou plus) ou Debian (stretch): ```sudo apt-get install webhook```
+- [Le reste des distributions linux](https://github.com/adnanh/webhook/#installation)
 
 ### Configuration
 Niveau configuration j'ai ceci:
