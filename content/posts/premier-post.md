@@ -1,7 +1,6 @@
 ---
 title: "make -C /srv/http/Vimarkish"
-date: 2018-08-06T18:25:58Z
-slug: premier-post
+date: 2018-08-06T16:25:58Z
 draft: false
 categories:
   - "Vimarkish"
