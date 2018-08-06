@@ -8,7 +8,7 @@ description:
 draft: true
 categories:
   - "CI/CD"
-  - "Vie du blog"
+  - "Vimarkish"
 tags:
   - "hugo"
   - "webhooks"
@@ -25,7 +25,7 @@ Aujourd'hui, on va automatiser tout ça.
 <!--more-->
 ## Du contexte
 
-Mon blog Hugo est tourne sur un serveur Archlinux et son contenu est stocké sur [GitHub](https://github.com/DasFranck/Vimarkish).
+Mon blog Hugo est tourne sur un serveur Archlinux, servi par Apache et son contenu est stocké sur [GitHub](https://github.com/DasFranck/Vimarkish).
 Lorsque je push une modification sur son répertoire, il faudrait que mon serveur pull les modifications et lance une regénération du blog.
 
 Pour celà, on va utiliser les [webhooks github](https://developer.github.com/webhooks/) et l'outil [webhook](https://github.com/adnan/webhook/).  
