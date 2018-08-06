@@ -3,7 +3,6 @@ title: "make -C /srv/http/Vimarkish"
 date: 2018-08-06T16:25:58Z
 type: post
 slug: premier-post
-description: test
 draft: false
 categories:
   - "Vimarkish"
