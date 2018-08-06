@@ -1,9 +1,8 @@
 baseURL = "https://dasfranck.fr"
-DefaultContentLanguage = "en"
 title = "Vimarkish"
-theme = "beautifulhugo"
-
-#languageCode = "en-us"
+theme = "eleganthugo"
+DefaultContentLanguage = "fr"
+languageCode = "fr-fr"
 
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -11,6 +10,7 @@ pygmentsUseClasses = true
 
 [Params]
   subtitle = "A subtitle"
+  dateFormat = "2 January 2006 15:04"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"  
   readingTime = true
