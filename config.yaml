@@ -1,0 +1,36 @@
+baseURL: https://dasfranck.fr
+languageCode: fr-fr
+DefaultContentLanguage: fr
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+theme: eleganthugo
+title: Vimarkish
+
+Author:
+  github: DasFranck
+  linkedin: franck-hochstaetter-b710b910a
+  name: '"Das" Franck Hochstaetter'
+  reddit: DasFranck
+  stackoverflow: users/4836782/dasfranck
+  website: https://dasfranck.fr
+
+Params:
+  dateFormat: 2 January 2006 15:04
+  favicon: img/favicon.ico
+  logo: img/avatar-icon.png
+  readingTime: true
+  rss: true
+  socialShare: true
+  subtitle: A subtitle
+
+menu:
+  main:
+  - name: Posts
+    url: posts/
+    weight: 1
+  - name: About
+    url: page/about/
+    weight: 2
+  - name: Tags
+    url: tags
+    weight: 3
