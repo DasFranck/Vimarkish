@@ -27,7 +27,7 @@ Il n'y a pas vraiment de ligne directrice ou de rythme de publication pour ce bl
 J'essayerai juste d'avoir envie assez souvent.
 
 Concernant le blog en lui-même, il est hébergé sur une petite instance à 3€ sous Archlinux et généré via [Hugo](https://gohugo.io).  
-Le blog est deployé automatiquement grâce à des webhooks que je vous expliquerai dans un prochain post.  
+Le blog est deployé automatiquement grâce à des webhooks que je vous expliquerai dans un prochain article.  
 Il y a aussi d'autres choses que j'aimerais bien rajouter comme Disqus ou un système auto-hébergé d'analytics, mais à quoi bon si j'ai pas d'articles et donc pas de lecteurs, donc ça se fera plus tard.  
 
 Ce titre ? C'est la commande avec laquelle je compilais mon premier blog (inactif) sous Pelican.
