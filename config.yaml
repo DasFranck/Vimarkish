@@ -1,10 +1,14 @@
 baseURL: https://dasfranck.fr
+title: Vimarkish
+theme: eleganthugo
+
 languageCode: fr-fr
 DefaultContentLanguage: fr
+
 pygmentsCodeFences: true
 pygmentsUseClasses: true
-theme: eleganthugo
-title: Vimarkish
+
+enableRobotsTXT: true
 
 Author:
   github: DasFranck
