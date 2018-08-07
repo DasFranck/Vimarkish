@@ -16,8 +16,8 @@ Author:
 
 Params:
   dateFormat: 2 January 2006 15:04
-  favicon: icons/favicon.png
-  logo: icons/avatar-icon.png
+  favicon: images/icons/favicon.png
+  logo: images/icons/avatar-icon.png
   readingTime: true
   rss: true
   socialShare: true
