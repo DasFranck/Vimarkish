@@ -1,19 +1,19 @@
 ---
-title: "Déploiement automatique du blog sous Hugo avec les webhooks"
+title: "Déploiement automatique du blog avec les webhooks"
 date: 2018-08-08T12:00:00Z
 #Lastmod: {{ .Date }}
 type: post
-slug: deploiement-automatique-hugo-webhooks
+slug: deploiement-automatique-hugo
 description: 
 draft: true
 categories:
   - "CI/CD"
   - "Vimarkish"
 tags:
-  - "Hugo"
   - "Webhooks"
   - "GitHub"
   - "Vimarkish"
+  - "Hugo"
 ---
 
 
@@ -25,7 +25,7 @@ Aujourd'hui, on va automatiser tout ça.
 <!--more-->
 # Du contexte
 
-Mon blog [Hugo](https://gohugo.io/) tourne sur un serveur [Archlinux](https://www.archlinux.fr), est servi par [Apache](https://httpd.apache.org/) et son contenu est stocké sur [GitHub](https://github.com/DasFranck/Vimarkish).
+Mon blog [Hugo](https://gohugo.io/) tourne sur un serveur [Archlinux](https://archlinux.fr), est servi par [Apache](https://httpd.apache.org/) et son contenu est stocké sur [GitHub](https://github.com/DasFranck/Vimarkish).
 Lorsque je push une modification sur son répertoire, il faudrait que mon serveur pull les modifications et lance une re-génération du blog.
 
 Pour cela, on va utiliser les [webhooks GitHub](https://developer.github.com/webhooks/) et l'outil [Webhook](https://github.com/adnan/webhook/).  
