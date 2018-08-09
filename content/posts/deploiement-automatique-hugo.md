@@ -43,10 +43,10 @@ Ce qui nous donne le cheminement suivant:
 Pour configurer github c'est assez simple, il suffit d'aller dans les paramètres et de sélectionner webhooks et de cliquer sur "Add Webhooks".  
 ![github-2](/images/deploiement-automatique-hugo/github-2.png)  
 
-- Payload URL: `http://IP_DU_SERVEUR:PORT/hooks/ID_DU_WEBHOOK`
-- Content Type: Qu'importe.
-- Secret: Le secret envoyé par le webhook
-- Events: On a besoin que de l'évènement push.
+- [Payload URL](https://developer.github.com/webhooks/creating/#payload-url): `http://IP_DU_SERVEUR:PORT/hooks/ID_DU_WEBHOOK`
+- [Content Type](https://developer.github.com/webhooks/creating/#content-type): Qu'importe.
+- [Secret](https://developer.github.com/webhooks/creating/#secret): Le secret envoyé par le webhook
+- [Events](https://developer.github.com/webhooks/creating/#events): On a besoin que de l'évènement push.
 
 Pour les autres forges, le fonctionnement est assez similaire et dans le pire des cas leur documentation doit avoir une rubrique dédié aux webhooks.
 
@@ -112,7 +112,7 @@ Niveau configuration j'ai ceci:
 En gros si le secret envoyé par le webhook correspond à celui présent ici et que le push a été effectué sur la branche master, il lance le script `deploy.sh` en tant que `http`.
 
 `http` étant l'utilisateur par lequel apache accède au repository, il est important que ce soit lui qui crée et modifie les fichier pour ne pas avoir de problème de permissions.  
-Pour ubuntu et debian, ce sera généralement www.
+Pour ubuntu et debian, ce sera généralement `www`.
 
 ### Déploiement
 Une fois configuré, il ne reste plus qu'à créer un petit script de déploiement qui sera donc appelé par Webhook.  
