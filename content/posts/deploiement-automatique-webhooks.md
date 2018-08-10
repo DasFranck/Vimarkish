@@ -108,7 +108,7 @@ Niveau configuration j'ai ceci:
 En gros si le secret envoyé par le webhook correspond à celui présent ici et que le push a été effectué sur la branche master, il lance le script `deploy.sh` en tant que `http`.
 
 `http` étant l'utilisateur par lequel apache accède au repository, il est important que ce soit lui qui crée et modifie les fichier pour ne pas avoir de problème de permissions.  
-Pour ubuntu et debian, ce sera généralement `www`.
+Pour ubuntu et debian, ce sera généralement `www-data`.
 
 ### Déploiement
 Une fois configuré, il ne reste plus qu'à créer un petit script de déploiement qui sera donc appelé par Webhook.  
