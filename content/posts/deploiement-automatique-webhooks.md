@@ -122,6 +122,8 @@ Personnellement, j'ai mis ceci à la racine du repository:
 
 # Pull the repository
 git pull
+# Update theme
+git submodule update --init
 # Generate the blog
 hugo
 ```
