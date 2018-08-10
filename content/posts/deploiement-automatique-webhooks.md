@@ -144,7 +144,7 @@ WantedBy=default.target
 À la place de `/home/dasfranck/vimarkish_webhooks.json`, il faudra mettre le chemin du fichier de configuration Webhook créé plus haut.
 
 On oublie pas de recharger les daemons avant d'essayer de l'activer et de le lancer:
-```
+```sh
 sudo systemctl daemon-reload
 sudo systemctl start vimarkish_webhook.service
 sudo systemctl enable vimarkish_webhook.service
