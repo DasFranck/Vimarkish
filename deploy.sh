@@ -1,5 +1,5 @@
 #!/bin/sh
 
 git pull
+git submodule update --init
 hugo --quiet
-chown -R www:www /srv/http/Vimarkish/
