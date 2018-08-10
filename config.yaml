@@ -1,6 +1,6 @@
 baseURL: https://dasfranck.fr
 title: Vimarkish
-theme: eleganthugo
+theme: beautifulhugo
 
 languageCode: fr-fr
 DefaultContentLanguage: fr
