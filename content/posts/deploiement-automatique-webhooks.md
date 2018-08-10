@@ -24,7 +24,7 @@ Aujourd'hui, on va automatiser tout ça.
 Mon blog [Hugo](https://gohugo.io/) tourne sur un serveur [Archlinux](https://archlinux.fr), est servi par [Apache](https://httpd.apache.org/) et son contenu est stocké sur [GitHub](https://github.com/DasFranck/Vimarkish).
 Lorsque je push une modification sur son répertoire, il faudrait que mon serveur pull les modifications et lance une re-génération du blog.
 
-Pour cela, on va utiliser les [webhooks GitHub](https://developer.github.com/webhooks/) et l'outil [Webhook](https://github.com/adnan/webhook/).  
+Pour cela, on va utiliser les [webhooks GitHub](https://developer.github.com/webhooks/) et l'outil [Webhook](https://github.com/adnanh/webhook/).  
 Oui, le nom de l'outil peut porter facilement à confusion et je sais pas comment le gars qui l'a pondu s'est dit que c'était une bonne idée.
 
 Ce qui nous donne le cheminement suivant:
