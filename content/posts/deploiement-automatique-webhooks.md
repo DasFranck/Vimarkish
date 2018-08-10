@@ -1,11 +1,10 @@
 ---
 title: "Déploiement automatique du blog avec les webhooks"
-date: 2018-08-08T12:00:00Z
+date: 2018-08-10T11:55:00Z
 #Lastmod: {{ .Date }}
 type: post
 slug: deploiement-automatique-hugo
 description: 
-draft: true
 categories:
   - "CI/CD"
   - "Vimarkish"
@@ -14,9 +13,6 @@ tags:
   - "GitHub"
   - "Vimarkish"
   - "Hugo"
----
-
-
 ---
 
 Le blog est en ligne et c'est bien beau mais c'est un peu lourd de devoir se connecter en ssh au serveur à chaque fois pour re-générer tout le contenu.  
